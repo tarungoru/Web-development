@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password generator</title>
+</head>
+
+<body >
+  <style>
+    body{
+      background-color: aqua;
+    }
+    div{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    button{
+      background-color: rgba(82, 84, 221, 0.925);
+      color: white;
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+  <div>
+    <h1>Password Generator</h1>
+    <h3>Please Enter the Password length</h3>
+    <input type="text" title="input">
+    <p>Include symbols: <input type="checkbox" title="checkbox"></p>
+    <p>Include Numbers: <input type="checkbox" title="checkbox"></p>
+    <button id="button">Generate Password</button>
+    <p id="demo"></p>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
