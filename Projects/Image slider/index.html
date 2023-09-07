@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+    }
+    #container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    #button{
+      margin: 50px;
+      
+    }
+  button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: red;
+  }
+    
+  </style>
+  <div id="container">
+    <h1>Image Slider</h1>
+    <img src="photo1.jpeg" height="350" width="350" title="img" id="img">
+
+    <div id="button"><button title="Previous">Previous</button>
+      <button title="Next">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
